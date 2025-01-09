@@ -5,12 +5,10 @@ CS- We need to set up actions for scooping, dumping, etc.
 
 2. Hardware-Specific Motor Control
 
-we must implement real calls to your motor controllers,via CAN (yes we CAN!)
-
 CS- figure out how to incorporate sparkcan into control_pkg
-CS- need a launch file in cpp that flashes all presets onto the SparkMAX motor controllers
-CS- Add changes to drivetrain.cpp and scoop.cpp that allow for sparkmax control with duty cycle
-CS - Later need to add changes to allow for positional and velocity control
+CS- need a launch file in cpp that flashes all presets onto the SparkMAX motor controllers UPDATE: No specific file required, can do it in scoop.cpp and drivetrain.cpp
+CS- Add changes to drivetrain.cpp and scoop.cpp that allow for sparkmax control with duty cycle DONE
+CS - Later need to add changes to drivetrain.cpp and scoop.cpp to allow for positional and velocity control
 
 
 3. Camera Input & Processing
@@ -44,7 +42,7 @@ We need more parameter YAMLs, ie costmaps planners etc
 
 We should add:
 
-Action clients for NavigateToPose.
+7. Action clients for NavigateToPose.
 
 A LifecycleNode with proper bringup and tear down.
 
