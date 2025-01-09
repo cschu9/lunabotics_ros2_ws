@@ -1,0 +1,89 @@
+[0.171s] Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/sparkcan:/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/lib:/home/catherineschuch/lunabotics_ros2_ws/install/sparkcan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/catherineschuch/lunabotics_ros2_ws/src/control_pkg -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg
+[0.368s] -- The C compiler identification is GNU 11.4.0
+[1.305s] -- The CXX compiler identification is GNU 11.4.0
+[1.965s] -- Detecting C compiler ABI info
+[2.170s] -- Detecting C compiler ABI info - done
+[2.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.179s] -- Detecting C compile features
+[2.179s] -- Detecting C compile features - done
+[2.183s] -- Detecting CXX compiler ABI info
+[2.396s] -- Detecting CXX compiler ABI info - done
+[2.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.405s] -- Detecting CXX compile features
+[2.405s] -- Detecting CXX compile features - done
+[2.407s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.568s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.653s] -- Found interfaces_pkg: 0.0.0 (/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/cmake)
+[2.895s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.898s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.906s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.918s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.934s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.955s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.039s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.044s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.394s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.191s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.029s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.050s] -- Looking for pthread.h
+[13.244s] -- Looking for pthread.h - found
+[13.245s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.463s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.464s] -- Found Threads: TRUE  
+[13.551s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[13.715s] -- Configuring done
+[13.725s] -- Generating done
+[13.730s] -- Build files have been written to: /home/catherineschuch/lunabotics_ros2_ws/build/control_pkg
+[13.739s] Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/sparkcan:/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/lib:/home/catherineschuch/lunabotics_ros2_ws/install/sparkcan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/catherineschuch/lunabotics_ros2_ws/src/control_pkg -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg
+[13.742s] Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/sparkcan:/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/lib:/home/catherineschuch/lunabotics_ros2_ws/install/sparkcan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/catherineschuch/lunabotics_ros2_ws/build/control_pkg -- -j16 -l16
+[13.781s] [ 25%] [32mBuilding CXX object CMakeFiles/drivetrain.dir/src/drivetrain.cpp.o[0m
+[13.781s] [ 50%] [32mBuilding CXX object CMakeFiles/scoop.dir/src/scoop.cpp.o[0m
+[13.789s] [ 50%] Built target ament_cmake_python_copy_control_pkg
+[14.024s] running egg_info
+[14.025s] creating control_pkg.egg-info
+[14.025s] writing control_pkg.egg-info/PKG-INFO
+[14.025s] writing dependency_links to control_pkg.egg-info/dependency_links.txt
+[14.026s] writing top-level names to control_pkg.egg-info/top_level.txt
+[14.026s] writing manifest file 'control_pkg.egg-info/SOURCES.txt'
+[14.028s] reading manifest file 'control_pkg.egg-info/SOURCES.txt'
+[14.028s] writing manifest file 'control_pkg.egg-info/SOURCES.txt'
+[14.053s] [ 50%] Built target ament_cmake_python_build_control_pkg_egg
+[22.449s] [ 75%] [32m[1mLinking CXX executable scoop[0m
+[22.480s] [100%] [32m[1mLinking CXX executable drivetrain[0m
+[23.197s] [100%] Built target drivetrain
+[23.204s] [100%] Built target scoop
+[23.215s] Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/sparkcan:/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/lib:/home/catherineschuch/lunabotics_ros2_ws/install/sparkcan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/catherineschuch/lunabotics_ros2_ws/build/control_pkg -- -j16 -l16
+[23.224s] Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/sparkcan:/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/lib:/home/catherineschuch/lunabotics_ros2_ws/install/sparkcan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/catherineschuch/lunabotics_ros2_ws/build/control_pkg
+[23.229s] -- Install configuration: ""
+[23.229s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/lib/control_pkg/drivetrain
+[23.232s] -- Set runtime path of "/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/lib/control_pkg/drivetrain" to ""
+[23.232s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/lib/control_pkg/scoop
+[23.235s] -- Set runtime path of "/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/lib/control_pkg/scoop" to ""
+[23.236s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/environment/pythonpath.sh
+[23.236s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/environment/pythonpath.dsv
+[23.236s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info
+[23.237s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[23.237s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[23.237s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[23.237s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[23.237s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg
+[23.237s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg/__init__.py
+[23.272s] Listing '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg'...
+[23.272s] Compiling '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg/__init__.py'...
+[23.277s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/lib/control_pkg/testcontrol.py
+[23.279s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/ament_index/resource_index/package_run_dependencies/control_pkg
+[23.279s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/ament_index/resource_index/parent_prefix_path/control_pkg
+[23.279s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/environment/ament_prefix_path.sh
+[23.279s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/environment/ament_prefix_path.dsv
+[23.279s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/environment/path.sh
+[23.280s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/environment/path.dsv
+[23.280s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/local_setup.bash
+[23.280s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/local_setup.sh
+[23.280s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/local_setup.zsh
+[23.280s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/local_setup.dsv
+[23.280s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/package.dsv
+[23.280s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/ament_index/resource_index/packages/control_pkg
+[23.280s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/cmake/control_pkgConfig.cmake
+[23.281s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/cmake/control_pkgConfig-version.cmake
+[23.281s] -- Installing: /home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/package.xml
+[23.283s] Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/sparkcan:/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/lib:/home/catherineschuch/lunabotics_ros2_ws/install/sparkcan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/catherineschuch/lunabotics_ros2_ws/build/control_pkg
