@@ -1,3 +1,5 @@
+#### DO NOT BUILD THIS PACKAGE YET
+Currently temporary, figuring out how to merge it with control_pkg
 #### Thank You!
 The UIC Lunabotics team would like to thank the College of Dupage Lunabotics Team, specifically Grayson Arendt, for this sparkcan package :3
 #### Disclaimer
