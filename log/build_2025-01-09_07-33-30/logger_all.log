@@ -1,0 +1,369 @@
+[0.867s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.867s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f1738c32d10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1738c32680>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1738c32680>>, mixin_verb=('build',))
+[1.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.329s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/catherineschuch/lunabotics_ros2_ws'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'ignore'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'ignore_ament_install'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extensions ['colcon_pkg']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'colcon_pkg'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extensions ['colcon_meta']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'colcon_meta'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extensions ['ros']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_pkg) by extension 'ros'
+[1.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_pkg' with type 'ros.ament_cmake' and name 'control_pkg'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extension 'ignore'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extension 'ignore_ament_install'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extensions ['colcon_pkg']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extension 'colcon_pkg'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extensions ['colcon_meta']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extension 'colcon_meta'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extensions ['ros']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces_pkg) by extension 'ros'
+[1.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces_pkg' with type 'ros.ament_cmake' and name 'interfaces_pkg'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'ignore'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'ignore_ament_install'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extensions ['colcon_pkg']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'colcon_pkg'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extensions ['colcon_meta']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'colcon_meta'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extensions ['ros']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'ros'
+[1.362s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_pkg' with type 'ros.ament_cmake' and name 'navigation_pkg'
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extension 'ignore'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extension 'ignore_ament_install'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extensions ['colcon_pkg']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extension 'colcon_pkg'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extensions ['colcon_meta']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extension 'colcon_meta'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extensions ['ros']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/webgui_pkg) by extension 'ros'
+[1.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webgui_pkg' with type 'ros.ament_cmake' and name 'webgui_pkg'
+[1.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.418s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.418s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.418s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.418s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.418s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.418s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.418s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.418s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.422s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/catherineschuch/lunabotics_ros2_ws/install
+[1.428s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.539s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'cmake_args' from command line to 'None'
+[1.539s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'cmake_target' from command line to 'None'
+[1.539s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.539s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.539s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.539s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.539s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.539s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.539s] Level 5:colcon.colcon_core.verb:set package 'interfaces_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.539s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg', 'merge_install': False, 'path': '/home/catherineschuch/lunabotics_ros2_ws/src/interfaces_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_args' from command line to 'None'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_target' from command line to 'None'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.540s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg', 'merge_install': False, 'path': '/home/catherineschuch/lunabotics_ros2_ws/src/navigation_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'webgui_pkg' build argument 'cmake_args' from command line to 'None'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'webgui_pkg' build argument 'cmake_target' from command line to 'None'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'webgui_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'webgui_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'webgui_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'webgui_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'webgui_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'webgui_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.540s] Level 5:colcon.colcon_core.verb:set package 'webgui_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.540s] DEBUG:colcon.colcon_core.verb:Building package 'webgui_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/catherineschuch/lunabotics_ros2_ws/build/webgui_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg', 'merge_install': False, 'path': '/home/catherineschuch/lunabotics_ros2_ws/src/webgui_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_args' from command line to 'None'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_target' from command line to 'None'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.541s] Level 5:colcon.colcon_core.verb:set package 'control_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.541s] DEBUG:colcon.colcon_core.verb:Building package 'control_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg', 'merge_install': False, 'path': '/home/catherineschuch/lunabotics_ros2_ws/src/control_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.541s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.542s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.543s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/catherineschuch/lunabotics_ros2_ws/src/interfaces_pkg' with build type 'ament_cmake'
+[1.543s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/catherineschuch/lunabotics_ros2_ws/src/interfaces_pkg'
+[1.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.552s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/catherineschuch/lunabotics_ros2_ws/src/navigation_pkg' with build type 'ament_cmake'
+[1.553s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/catherineschuch/lunabotics_ros2_ws/src/navigation_pkg'
+[1.553s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.553s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.555s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/catherineschuch/lunabotics_ros2_ws/src/webgui_pkg' with build type 'ament_cmake'
+[1.556s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/catherineschuch/lunabotics_ros2_ws/src/webgui_pkg'
+[1.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ros2_ws/src/interfaces_pkg -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg
+[1.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/webgui_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ros2_ws/src/webgui_pkg -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg
+[1.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ros2_ws/src/navigation_pkg -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg
+[3.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ros2_ws/src/navigation_pkg -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg
+[3.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg -- -j16 -l16
+[3.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg -- -j16 -l16
+[3.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg
+[3.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_pkg)
+[3.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ros2_ws/build/navigation_pkg
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg' for CMake module files
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg' for CMake config files
+[3.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_pkg', 'cmake_prefix_path')
+[3.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/hook/cmake_prefix_path.ps1'
+[3.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/hook/cmake_prefix_path.dsv'
+[3.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/hook/cmake_prefix_path.sh'
+[3.910s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/bin'
+[3.910s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/lib/pkgconfig/navigation_pkg.pc'
+[3.910s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/lib/python3.10/site-packages'
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/bin'
+[3.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.dsv'
+[3.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.sh'
+[3.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.bash'
+[3.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.zsh'
+[3.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/colcon-core/packages/navigation_pkg)
+[3.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_pkg)
+[3.918s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg' for CMake module files
+[3.919s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg' for CMake config files
+[3.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_pkg', 'cmake_prefix_path')
+[3.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/hook/cmake_prefix_path.ps1'
+[3.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/hook/cmake_prefix_path.dsv'
+[3.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/hook/cmake_prefix_path.sh'
+[3.920s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/bin'
+[3.920s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/lib/pkgconfig/navigation_pkg.pc'
+[3.921s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/lib/python3.10/site-packages'
+[3.921s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/bin'
+[3.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.ps1'
+[3.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.dsv'
+[3.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.sh'
+[3.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.bash'
+[3.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/navigation_pkg/package.zsh'
+[3.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg/share/colcon-core/packages/navigation_pkg)
+[3.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/webgui_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ros2_ws/src/webgui_pkg -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg
+[3.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/webgui_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ros2_ws/build/webgui_pkg -- -j16 -l16
+[3.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/webgui_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ros2_ws/build/webgui_pkg -- -j16 -l16
+[3.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/webgui_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ros2_ws/build/webgui_pkg
+[3.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webgui_pkg)
+[3.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/webgui_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ros2_ws/build/webgui_pkg
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg' for CMake module files
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg' for CMake config files
+[3.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('webgui_pkg', 'cmake_prefix_path')
+[3.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/hook/cmake_prefix_path.ps1'
+[3.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/hook/cmake_prefix_path.dsv'
+[3.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/hook/cmake_prefix_path.sh'
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/bin'
+[3.971s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/lib/pkgconfig/webgui_pkg.pc'
+[3.971s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/lib/python3.10/site-packages'
+[3.971s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/bin'
+[3.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/package.ps1'
+[3.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/package.dsv'
+[3.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/package.sh'
+[3.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/package.bash'
+[3.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/package.zsh'
+[3.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/colcon-core/packages/webgui_pkg)
+[3.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webgui_pkg)
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg' for CMake module files
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg' for CMake config files
+[3.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('webgui_pkg', 'cmake_prefix_path')
+[3.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/hook/cmake_prefix_path.ps1'
+[3.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/hook/cmake_prefix_path.dsv'
+[3.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/hook/cmake_prefix_path.sh'
+[3.977s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/bin'
+[3.978s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/lib/pkgconfig/webgui_pkg.pc'
+[3.978s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/lib/python3.10/site-packages'
+[3.978s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/bin'
+[3.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/package.ps1'
+[3.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/package.dsv'
+[3.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/package.sh'
+[3.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/package.bash'
+[3.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/webgui_pkg/package.zsh'
+[3.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg/share/colcon-core/packages/webgui_pkg)
+[7.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ros2_ws/src/interfaces_pkg -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg
+[7.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg -- -j16 -l16
+[10.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg -- -j16 -l16
+[10.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg
+[10.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces_pkg)
+[10.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg
+[10.570s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg' for CMake module files
+[10.570s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg' for CMake config files
+[10.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_pkg', 'cmake_prefix_path')
+[10.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/hook/cmake_prefix_path.ps1'
+[10.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/hook/cmake_prefix_path.dsv'
+[10.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/hook/cmake_prefix_path.sh'
+[10.572s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/lib'
+[10.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_pkg', 'ld_library_path_lib')
+[10.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/hook/ld_library_path_lib.ps1'
+[10.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/hook/ld_library_path_lib.dsv'
+[10.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/hook/ld_library_path_lib.sh'
+[10.574s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/bin'
+[10.574s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/lib/pkgconfig/interfaces_pkg.pc'
+[10.574s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/lib/python3.10/site-packages'
+[10.574s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/bin'
+[10.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/package.ps1'
+[10.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/package.dsv'
+[10.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/package.sh'
+[10.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/package.bash'
+[10.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/package.zsh'
+[10.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/colcon-core/packages/interfaces_pkg)
+[10.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces_pkg)
+[10.578s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg' for CMake module files
+[10.579s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg' for CMake config files
+[10.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_pkg', 'cmake_prefix_path')
+[10.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/hook/cmake_prefix_path.ps1'
+[10.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/hook/cmake_prefix_path.dsv'
+[10.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/hook/cmake_prefix_path.sh'
+[10.580s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/lib'
+[10.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces_pkg', 'ld_library_path_lib')
+[10.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/hook/ld_library_path_lib.ps1'
+[10.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/hook/ld_library_path_lib.dsv'
+[10.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/hook/ld_library_path_lib.sh'
+[10.582s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/bin'
+[10.582s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/lib/pkgconfig/interfaces_pkg.pc'
+[10.583s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/lib/python3.10/site-packages'
+[10.583s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/bin'
+[10.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/package.ps1'
+[10.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/package.dsv'
+[10.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/package.sh'
+[10.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/package.bash'
+[10.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/interfaces_pkg/package.zsh'
+[10.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg/share/colcon-core/packages/interfaces_pkg)
+[10.586s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/catherineschuch/lunabotics_ros2_ws/src/control_pkg' with build type 'ament_cmake'
+[10.586s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/catherineschuch/lunabotics_ros2_ws/src/control_pkg'
+[10.586s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.586s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ros2_ws/src/control_pkg -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg
+[26.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ros2_ws/src/control_pkg -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg
+[26.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ros2_ws/build/control_pkg -- -j16 -l16
+[36.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ros2_ws/build/control_pkg -- -j16 -l16
+[36.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ros2_ws/build/control_pkg
+[36.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_pkg)
+[36.363s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg' for CMake module files
+[36.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/catherineschuch/lunabotics_ros2_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ros2_ws/build/control_pkg
+[36.364s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg' for CMake config files
+[36.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_pkg', 'cmake_prefix_path')
+[36.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.ps1'
+[36.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.dsv'
+[36.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.sh'
+[36.366s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/lib'
+[36.366s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/bin'
+[36.366s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/lib/pkgconfig/control_pkg.pc'
+[36.366s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/lib/python3.10/site-packages'
+[36.366s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/bin'
+[36.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/package.ps1'
+[36.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/package.dsv'
+[36.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/package.sh'
+[36.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/package.bash'
+[36.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/package.zsh'
+[36.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/colcon-core/packages/control_pkg)
+[36.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_pkg)
+[36.369s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg' for CMake module files
+[36.369s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg' for CMake config files
+[36.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_pkg', 'cmake_prefix_path')
+[36.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.ps1'
+[36.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.dsv'
+[36.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/hook/cmake_prefix_path.sh'
+[36.371s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/lib'
+[36.371s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/bin'
+[36.371s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/lib/pkgconfig/control_pkg.pc'
+[36.371s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/lib/python3.10/site-packages'
+[36.371s] Level 1:colcon.colcon_core.environment:checking '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/bin'
+[36.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/package.ps1'
+[36.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/package.dsv'
+[36.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/package.sh'
+[36.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/package.bash'
+[36.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/control_pkg/package.zsh'
+[36.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/catherineschuch/lunabotics_ros2_ws/install/control_pkg/share/colcon-core/packages/control_pkg)
+[36.374s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[36.374s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[36.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[36.375s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[36.816s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[36.816s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[36.817s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[36.817s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[36.819s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[36.819s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[36.820s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/catherineschuch/lunabotics_ros2_ws/install/local_setup.ps1'
+[36.822s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/catherineschuch/lunabotics_ros2_ws/install/_local_setup_util_ps1.py'
+[36.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/catherineschuch/lunabotics_ros2_ws/install/setup.ps1'
+[36.825s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/catherineschuch/lunabotics_ros2_ws/install/local_setup.sh'
+[36.826s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/catherineschuch/lunabotics_ros2_ws/install/_local_setup_util_sh.py'
+[36.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/catherineschuch/lunabotics_ros2_ws/install/setup.sh'
+[36.828s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/catherineschuch/lunabotics_ros2_ws/install/local_setup.bash'
+[36.829s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/catherineschuch/lunabotics_ros2_ws/install/setup.bash'
+[36.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/catherineschuch/lunabotics_ros2_ws/install/local_setup.zsh'
+[36.832s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/catherineschuch/lunabotics_ros2_ws/install/setup.zsh'
