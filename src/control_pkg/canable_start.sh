@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # credit to the College of Dupage Lunabotics team and Grayson Arendt!
+DEBUG=false
+if ${DEBUG}; then
 
 echo "Enter the name of the can interface (can0, e.g.):"
 read interface
@@ -31,3 +33,5 @@ else
 fi
 
 echo "CAN interface $interface setup complete."
+
+fi
