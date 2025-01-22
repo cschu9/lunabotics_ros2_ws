@@ -2,7 +2,11 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
+<<<<<<< HEAD
   set(install_space "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg")
+=======
+  set(install_space "/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg")
+>>>>>>> 83d0422f78e9a6e3671c3233e8d24f9d7b9d5834
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +33,11 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
+<<<<<<< HEAD
 set(install_manifest "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/install_manifest.txt")
+=======
+set(install_manifest "/home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg/install_manifest.txt")
+>>>>>>> 83d0422f78e9a6e3671c3233e8d24f9d7b9d5834
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

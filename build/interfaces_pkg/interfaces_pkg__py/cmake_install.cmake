@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: /ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/interfaces_pkg__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/ssd/home/edt/Documents/lunabotics_ros_ws/install/interfaces_pkg")
+=======
+# Install script for directory: /home/catherineschuch/lunabotics_ros2_ws/build/interfaces_pkg/interfaces_pkg__py
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/home/catherineschuch/lunabotics_ros2_ws/install/interfaces_pkg")
+>>>>>>> 83d0422f78e9a6e3671c3233e8d24f9d7b9d5834
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,3 +45,11 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+<<<<<<< HEAD
+=======
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+>>>>>>> 83d0422f78e9a6e3671c3233e8d24f9d7b9d5834

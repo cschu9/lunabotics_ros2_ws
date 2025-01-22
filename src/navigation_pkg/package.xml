@@ -4,6 +4,7 @@
   <name>navigation_pkg</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
+<<<<<<< HEAD
   <maintainer email="edt@todo.todo">edt</maintainer>
   <license>TODO: License declaration</license>
 
@@ -14,5 +15,17 @@
 
   <export>
     <build_type>ament_python</build_type>
+=======
+  <maintainer email="catherineschuch@todo.todo">catherineschuch</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+>>>>>>> 83d0422f78e9a6e3671c3233e8d24f9d7b9d5834
   </export>
 </package>
