@@ -1,0 +1,17 @@
+{
+  "package_name": "interfaces_pkg",
+  "output_dir": "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/rosidl_typesupport_cpp/interfaces_pkg",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/rosidl_adapter/interfaces_pkg:msg/DutyCycleOutput.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/lib/python3.8/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/ssd/home/edt/Documents/lunabotics_ros_ws/build/interfaces_pkg/rosidl_adapter/interfaces_pkg/msg/DutyCycleOutput.idl"
+  ]
+}
